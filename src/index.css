@@ -36,6 +36,9 @@
 }
 
 /* General styles */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
     background: var(--clr-light);
@@ -98,6 +101,7 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title {
     margin-bottom: .25em;
+    color: var(--clr-accent);
 }
 
 .section__title--intro {
@@ -191,6 +195,9 @@ header {
 
 .nav-open .hamburger {
   transform: rotate(.625turn);
+}
+.nav-open .hamburger::before {
+  transform: rotate(90deg) translateX(-6px);
 }
 
 .nav-open .hamburger::after {

@@ -13,6 +13,10 @@ function Header() {
     setIsToggled(!isToggled);
   }
 
+  function handleLinkClick() {
+    setIsToggled(false);
+  }
+
 
   return (
     <header>
@@ -25,10 +29,10 @@ function Header() {
       </button>
       <nav className={isToggled ? "nav-open nav" : "nav"}>
         <ul className="nav__list">
-          <li className="nav__item"><a href="#home" className="nav__link">Home</a></li>
-          <li className="nav__item"><a href="#services" className="nav__link">My Services</a></li>
-          <li className="nav__item"><a href="#about" className="nav__link">About me</a></li>
-          <li className="nav__item"><a href="#work" className="nav__link">My Work</a></li>
+          <li className="nav__item"><a href="#home" className="nav__link" onClick={handleLinkClick}>Home</a></li>
+          <li className="nav__item"><a href="#services" className="nav__link" onClick={handleLinkClick}>My Services</a></li>
+          <li className="nav__item"><a href="#about" className="nav__link" onClick={handleLinkClick}>About me</a></li>
+          <li className="nav__item"><a href="#work" className="nav__link" onClick={handleLinkClick}>My Work</a></li>
         </ul>
       </nav>
     </header>

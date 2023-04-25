@@ -11,17 +11,17 @@ function Services() {
             <div className="services">
                 <div className="service">
                     <h3>Design + Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>I have a passion for creating dynamic web applications that engage and delight users. With my knowledge of React and other front-end technologies, I can build a responsive and interactive user experience that will keep your users coming back.</p>
                 </div>
                 
                 <div className="service">
-                    <h3>E-Commerce</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3>API</h3>
+                    <p>I specialize in building front-end interfaces that interact with APIs, allowing users to perform tasks such as creating, reading, updating, and deleting data. I like building intuitive user interface that seamlessly integrates with APIs.</p>
                 </div> 
                 
                 <div className="service">
-                    <h3>WordPress</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3>Stack</h3>
+                    <p>My front-end development stack includes React, HTML, CSS, and JavaScript. I have experience using these technologies to build complex web applications and can help you develop a solution that meets your specific requirements.</p>
                 </div>
             </div> 
             

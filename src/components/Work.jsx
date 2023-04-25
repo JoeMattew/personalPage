@@ -2,6 +2,7 @@ import { useState } from 'react'
 import todo from '../assets/todo.jpg'
 import calc from '../assets/calc.jpg'
 import recipe from '../assets/recipe.jpg'
+import weather from '../assets/weather.jpg'
 
 
 
@@ -26,6 +27,10 @@ function Work() {
                 
                 <a href="https://splendorous-eclair-301e54.netlify.app/" className="portfolio__item">
                     <img src={calc} alt="" className="portfolio__img" />
+                </a>
+
+                <a href="https://joemattew.github.io/" className="portfolio__item">
+                    <img src={weather} alt="" className="portfolio__img" />
                 </a>
 
                 

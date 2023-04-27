@@ -1,0 +1,61 @@
+{
+    
+    "Hi": {
+        "1": "Hi, I am"
+    },
+    "Name": {
+        "1": "Marat Saitov"
+    },
+    "ServTitle": {
+        "1": "What I do"
+    },
+    "ServBody1Title": {
+        "1": "Design + Development"
+    },
+    "ServBody1": {
+        "1": "I have a passion for creating dynamic web applications that engage and delight users. With my knowledge of React and other front-end technologies, I can build a responsive and interactive user experience that will keep your users coming back."
+    },
+    "ServBody2Title": {
+        "1": "API"
+    },
+    "ServBody2": {
+        "1": "I specialize in building front-end interfaces that interact with APIs, allowing users to perform tasks such as creating, reading, updating, and deleting data. I like building intuitive user interface that seamlessly integrates with APIs."
+    },
+    "ServBody3Title": {
+        "1": "Stack"
+    },
+    "ServBody3": {
+        "1": "My front-end development stack includes React, HTML, CSS, and JavaScript. I have experience using these technologies to build complex web applications and can help you develop a solution that meets your specific requirements."
+    },
+    "ServEnd": {
+        "1": "My work"
+    },
+    "AboutMe": {
+        "1": "Who I am"
+    },
+    "AboutMeTitle": {
+        "1": "Designer & developer"
+    },
+    "AboutMeBody": {
+        "1": "I'm a versatile individual with a passion for learning and exploring new things. I started out as an English teacher, where I honed my communication and interpersonal skills. I've always had a love for travel and I've been fortunate enough to explore many different countries and cultures. More recently, I discovered my passion for coding and became a frontend developer. It's been a challenging yet rewarding journey, and I'm excited to continue growing and improving in this field."
+    },
+    "MyWork": {
+        "1": "My work"
+    },
+    "EmailMe": {
+        "1": "Email me"
+    },
+    "HomeMenu": {
+        "1": "Home"
+    },
+    "MyServicesMenu": {
+        "1": "My services"
+    },
+    "AboutMeMenu": {
+        "1": "About Me"
+    },
+    "MyWorkMenu": {
+        "1": "My work"
+    }
+    
+}

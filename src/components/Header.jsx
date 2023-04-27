@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react'
 import logo from '../assets/logo.svg'
 
 
-function Header() {
+function Header({ t, handleClick }) {
+  
+
   const [isToggled, setIsToggled] = useState(false)
 
   useEffect(() => {
@@ -23,16 +25,19 @@ function Header() {
       <div className='logo'>
         <img src={logo} alt="" />
       </div>
+     
+
+
       <button className="nav-toggle"
-      aria-label="toggle navigation" onClick={handleClick}>
+        aria-label="toggle navigation" onClick={handleClick}>
         <span className="hamburger"></span>
       </button>
       <nav className={isToggled ? "nav-open nav" : "nav"}>
         <ul className="nav__list">
-          <li className="nav__item"><a href="#home" className="nav__link" onClick={handleLinkClick}>Home</a></li>
-          <li className="nav__item"><a href="#services" className="nav__link" onClick={handleLinkClick}>My Services</a></li>
-          <li className="nav__item"><a href="#about" className="nav__link" onClick={handleLinkClick}>About me</a></li>
-          <li className="nav__item"><a href="#work" className="nav__link" onClick={handleLinkClick}>My Work</a></li>
+          <li className="nav__item"><a href="#home" className="nav__link" onClick={handleLinkClick}>{t('HomeMenu.1')}</a></li>
+          <li className="nav__item"><a href="#services" className="nav__link" onClick={handleLinkClick}>{t('MyServicesMenu.1')}</a></li>
+          <li className="nav__item"><a href="#about" className="nav__link" onClick={handleLinkClick}>{t('AboutMeMenu.1')}</a></li>
+          <li className="nav__item"><a href="#work" className="nav__link" onClick={handleLinkClick}>{t('MyWorkMenu.1')}</a></li>
         </ul>
       </nav>
     </header>

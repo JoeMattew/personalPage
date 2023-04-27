@@ -138,6 +138,8 @@ header {
   max-width: 100px;
 }
 
+
+
 .nav {
   position: fixed;
   background: var(--clr-dark);
@@ -231,6 +233,23 @@ header {
 
 .hamburger::before { top: 6px; }
 .hamburger::after { bottom: 6px; }
+
+/* Language buttons */
+
+.langChoose {
+  /* margin-left: 10px; */
+
+}
+
+.lang-button {
+  color: black;
+  background-color:white;
+  box-shadow: var(--bs);
+  margin: 5px;
+  min-width: 55px;
+  border-radius: 7px;
+
+}
 
 /*  Intro section  */
 

@@ -7,12 +7,12 @@ import weather from '../assets/weather.jpg'
 
 
 
-function Work() {
+function Work({ t, handleClick }) {
     const [count, setCount] = useState(0)
 
     return (
         <section className="my-work" id="work">
-            <h2 className="section__title">My work</h2>
+            <h2 className="section__title">{t('MyWork.1')}</h2>
             <p className="section__subtitle"></p>
 
             <div className="portfolio">

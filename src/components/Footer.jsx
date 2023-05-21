@@ -22,7 +22,7 @@ function Footer({ t, handleClick }) {
                 <li className="social-list__item"><a className="social-list__link" href="https://instagram.com/matt_migrant?igshid=Mzc1MmZhNjY="><img src={instagram} alt="Instagram" style={{ width: '32px', height: '32px' }} /></a></li>
                 <li className="social-list__item"><a className="social-list__link" href="https://api.whatsapp.com/send?phone=8613538220835&text=Hello,%20how%20can%20I%20help%20you?"><img src={whatsapp} alt="Whatsapp" style={{ width: '32px', height: '32px' }} /></a></li>
             </ul>
-            <a className="cv" href={CVMaratSaitov} download>Download CV</a>
+            <a className="cv" href={CVMaratSaitov} download>{t('DownloadCV.1')}</a>
             
         </footer>
     )

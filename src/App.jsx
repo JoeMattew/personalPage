@@ -19,8 +19,8 @@ function App() {
     <div className="App">
       <Header  t={t} handleClick={handleClick}/>
       <div className="langChoose">
-        <button onClick={() => handleClick('en')} className='lang-button'>EN</button>
-        <button onClick={() => handleClick('rus')} className='lang-button'>RUS</button>
+        <button onClick={() => handleClick('en')} className='lang-button'>En</button>
+        <button onClick={() => handleClick('rus')} className='lang-button'>Rus</button>
       </div>
       <Intro t={t} handleClick={handleClick}/>
       <Services t={t} handleClick={handleClick}/>
